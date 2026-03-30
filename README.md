@@ -39,4 +39,4 @@ streamlit run app.py
 - pipeline.py — склейка всех модулей
 - app.py — веб-интерфейс на Streamlit
 - train.py — обучение модели
-- prepare_dataset.py — подготовка датасета
+
