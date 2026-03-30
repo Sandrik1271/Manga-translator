@@ -59,4 +59,4 @@ def process_image(image_path, model, mocr, lama, trans):
 
 if __name__ == "__main__":
     result = process_image("dataset/train/images/c46004cb-006.jpg", model, mocr, lama, trans)
-    result.save("result6.png")
+    result.save("result.png")
