@@ -1,0 +1,10 @@
+dataset/
+runs/
+*.pt
+project-3-at-2026-03-29-11-07-3e75ac4a/
+Roboto/
+__pycache__/
+*.pyc
+venv/
+result*.png
+.env

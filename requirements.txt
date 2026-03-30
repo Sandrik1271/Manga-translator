@@ -1,0 +1,6 @@
+ultralytics
+manga-ocr
+simple-lama-inpainting
+deep-translator
+streamlit
+Pillow
