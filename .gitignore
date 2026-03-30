@@ -6,7 +6,6 @@ Roboto/
 __pycache__/
 *.pyc
 venv/
-result.jpg
 .env
 train.py
 prepare_dataset.py
