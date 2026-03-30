@@ -20,25 +20,23 @@
 - Streamlit — веб-интерфейс
 
 ## Установка
-```bash
 pip install -r requirements.txt
 
 ## Запуск
-```bash
 streamlit run app.py
 
 ## Веса модели
-Скачай `best.pt` и положи в корень проекта рядом с `app.py`
+Скачай best.pt и положи в корень проекта рядом с app.py
 
 [Скачать best.pt](https://huggingface.co/sandrik1271/manga-translator-yolov8/resolve/main/best.pt)
 
 ## Структура проекта
-- `detect.py` — детекция bbox через YOLOv8
-- `ocr.py` — распознавание текста через Manga OCR
-- `translate.py` — перевод через Google Translate
-- `inpaint.py` — удаление текста через LaMa
-- `render.py` — вставка переведённого текста
-- `pipeline.py` — склейка всех модулей
-- `app.py` — веб-интерфейс на Streamlit
-- `train.py` — обучение модели
-- `prepare_dataset.py` — подготовка датасета
+- detect.py — детекция bbox через YOLOv8
+- ocr.py — распознавание текста через Manga OCR
+- translate.py — перевод через Google Translate
+- inpaint.py — удаление текста через LaMa
+- render.py — вставка переведённого текста
+- pipeline.py — склейка всех модулей
+- app.py — веб-интерфейс на Streamlit
+- train.py — обучение модели
+- prepare_dataset.py — подготовка датасета
